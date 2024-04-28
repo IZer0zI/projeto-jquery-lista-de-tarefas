@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 15", sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+header {
+    padding: 64px 0 0 0;
+    display: flex;
+    border-bottom: 16px solid black;
+    justify-content: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, 
+button {
+    padding: 8px 64px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 32px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    list-style: decimal;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
